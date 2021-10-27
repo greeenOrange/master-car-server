@@ -57,7 +57,7 @@ async function run() {
 //   // perform actions on the collection object
 //   // client.close();
 // });
-app.get('/Hello Node js', (req, res) =>{
+app.get('/hello', (req, res) =>{
   res.send('node server in updated')
 })
 app.get('/', (req, res) =>{
